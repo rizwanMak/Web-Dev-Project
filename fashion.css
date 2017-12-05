@@ -1,0 +1,233 @@
+html{
+	border: 2px solid black;
+	width: 800px;
+	height:auto;
+	margin: auto;
+	border-radius: 10px;
+	text-align: center;
+
+}
+
+body
+{
+	background:url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	text-align: center;
+	font-family:Times;
+}
+
+section{
+	padding-bottom: 50px;
+}
+
+h1{
+	font-size: 70px;
+	position: relative;
+	text-shadow: 5px 5px 5px #888888;
+}
+h3{
+	margin:auto;
+	left:560px;
+	top:130px;
+	position: absolute;
+	font-style: italic; 
+}
+h4{
+	border: 2px solid gray;
+	background-color: #dadee5;
+	border-radius: 20px;
+}
+
+#intro{
+	border: 2px solid gray;
+	border-radius: 10px;
+	background-color: #dadee5;
+	column-count: 2;
+	text-align: left;
+	padding: 10px;
+	opacity: 0.9;
+	word-spacing: 7px;
+}
+
+#viratKohli {
+	width: 337px;
+	border-radius: 10px;
+	box-shadow: 10px 1px 5px #888888;
+	padding-top: 6px;
+	text-align: left;
+}
+
+/*the nav part and foot part is used from assignments for css*/
+#navigation nav {
+	margin: 0px auto; 
+	color:#fff366;
+	text-align:center;
+	padding:30px;	
+}
+#navigation nav > ul {
+	display:inline; 
+	list-style: none;
+	border: 1px solid black;
+	padding: 10px;
+	background:  #dadee5; 
+	border-radius: 20px;
+}
+#navigation nav > ul li {
+	display:inline; 
+}
+
+#navigation nav > ul li a {
+	font-weight: bold;
+	text-decoration:none;
+	line-height: 20px;
+	padding: 5px 15px; 
+	display:inline-block;
+
+}
+#navigation nav > ul li > a:hover, nav > ul li a:focus {
+	color:white;
+	background:black;
+	border-radius: 20px;
+}
+
+footer{
+	text-align:center;
+	font-size: 12px;
+	border:1px solid black;
+	border-radius: 10px;
+	background-color: #dadee5;
+	opacity: 0.8;
+	padding-bottom: 10px;
+}
+
+
+#foot nav ul, nav ul li{
+	display: inline;
+	margin:0px auto;
+	padding: 0px;
+}
+
+#foot nav ul li:after{
+	color:black;
+	content: "|";
+	font-weight: bolder;
+}
+
+#foot nav ul li:last-of-type:after{
+	content: "";
+}
+
+#foot nav > ul li > a:hover, nav > ul li a:focus {
+	color:red;
+	background:black;
+	border-radius: 20px;
+}
+
+#foot nav{
+	text-align: center;
+	line-height: 70%;
+	padding-top: 10px;
+}
+
+.foot{
+	line-height: 40%;
+}
+
+#foot nav ul a{
+	font-family: arial;
+	font-size: .85em;
+	display: inline-block;
+	color:black;
+	text-decoration: none;
+	height:1px;
+	padding:0px 8px;
+}
+
+#diffStyles img {
+	width: 215px;
+	height: 215px;
+	border-radius: 20px;
+	position: relative;
+	padding: 10px;
+}
+
+
+#product1{
+	border:2px solid black;
+}
+
+input{
+	margin: auto;
+
+}
+
+#fullname, #phoneNumber, #email, #comments{
+	margin-bottom: 9px;
+}
+#male, #female{
+	text-align: left;
+	padding-top: 20px;
+}
+
+ul{
+	list-style: none;
+	text-align: right;
+	padding-right: 250px;
+
+}
+
+fieldset{
+	margin-bottom: 20px;
+	background-color: #dadee5;
+	border-radius: 20px;
+}
+
+input:focus 
+{
+	color:blue;
+	background-color: #f7e951;
+}
+
+#thankyou{
+	border:1px solid black;
+	border-radius: 20px;
+	background-color: #dadee5;
+}
+
+#fullname_error, #phoneNumber_error, #phoneNumberFormat_error, #email_error, #emailformat_error{
+	color: red;
+}
+
+#fashion1 img {
+	background-color: black;
+	width: 150px;
+	height: 150px;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    border: 1px solid gray;
+}
+
+#fashion1 ul {
+    list-style: none;
+    margin: 0 0 1em 0;
+	padding: 0;
+}
+
+#fashion1 ul li {
+	padding: 1em;
+	border: 2px solid #dadee5;
+}
+
+.zebra_background {
+    background-color: #dadee5;
+}
+
+#fashion1{
+	background-color: #dadee5;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}

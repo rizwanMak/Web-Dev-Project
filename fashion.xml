@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fashion>
+    <clothes>
+        <style_name>Sweaters</style_name>
+        <price>$39.99</price>
+        <description>A soft, textured sweater designed with a V-neck, icon at left chest and ribbed trim, Slim Fit, Imported</description>
+        <images>
+            <image>product1.jpg</image>
+            <image>product3.jpg</image>
+            <image>product4.jpg</image>
+        </images>
+    </clothes>
+
+  <clothes>
+        <style_name>Suits</style_name>
+        <price>$239.99</price>
+        <description>Suit blazer with pointed lapel collar. Features front flap pockets with satin piping, a besom pocket at the chest and lining with an inside pocket. Vent in the back. Buttoned cuffs and buttoned front. </description>
+        <images>
+            <image>suit1.jpg</image>
+            <image>suit2.jpg</image>
+            <image>suit3.jpg</image>
+        </images>
+    </clothes>
+
+    <clothes>
+        <style_name>Everyday Wear</style_name>
+        <price>$29.99</price>
+        <description>Checked, cropped chino trousers with contrasting side stripes. They feature two side pockets, two rear welt pockets, one coin pocket and belt loops. Zip fly and top button fastening.
+         </description>
+        <images>
+            <image>casual1.jpg</image>
+            <image>casual2.jpg</image>
+            <image>casual3.jpg</image>
+        </images>
+    </clothes>
+</fashion>

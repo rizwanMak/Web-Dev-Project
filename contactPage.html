@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Membership Form</title>
+	<link rel="stylesheet" type="text/css" href="fashion.css" />
+	<script src="contactUs.js" type="text/javascript"></script>
+</head>
+<body>
+	<header>
+		<h1>BLACK & WHITE</h1>
+	</header>
+	<div id="navigation">
+		<nav>
+			<ul>
+				<li><a href = 'index.html' target="blank">Home</a></li>
+				<li><a href = 'products.html' target="blank">Products</a></li>
+				<li><a href = 'contactPage.html' target="blank">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<h4>Your Information</h4>
+	<form id="membershipForm" 
+	action="thankyou.html" 
+	method="post">
+	<fieldset id="clientInfo">
+		<div class="left">
+			<h3>Membership Form</h3>
+			<ul>
+				<li>
+					<label for="fullname">Full Name:</label>
+					<input id="fullname" name="fullname" type="text" />
+					<p class="formError error" id="fullname_error">* Required field</p>
+				</li>
+				<li>
+					<label for="phoneNumber">Phone Number:</label>
+					<input id="phoneNumber" name="phoneNumber" type="tel" />
+					<p class="formError error" id="phoneNumber_error">* Required field</p>
+					<p class="formError error" id="phoneNumberFormat_error">* Invalid Phone Number</p>
+				</li>
+				<li>
+					<label for="email">Email:</label>
+					<input id="email" name="email" type="text" />
+					<p class="formError error" id="email_error">* Required field</p>
+					<p class="formError error" id="emailformat_error">* Invalid email address</p>
+				</li>
+				<li>
+					<label for="comments">Comments:</label>
+					<textarea id="comments" name="comments" 
+					rows="5"></textarea>
+				</li>
+				<li>
+					<input type="radio" name="gender" value="male" id="male" ><label for="male">Male </label>
+					<input type="radio" name="gender" value="female" id="female" ><label for="female">Female </label>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<p class="center">
+			<button type="submit" id="submit">SUBMIT</button>
+			<button type="reset" id="reset">RESET</button>
+		</p>
+	</fieldset>
+</form>
+<footer>
+	<div id="foot">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="https://www.google.ca/maps" target="blank">Location Map</a></li>
+				<li><a href="contactPage.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<p>Copyright &#169; 2011 <span id ="B&W">Black & White Company LTD.</span></p>
+		<span id = "address">Malad East, Mumbai, Maharashtra 400097, India</span> | <span id ="map">Map </span>
+	</div>
+</footer>
+</body>
+</html>
